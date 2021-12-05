@@ -23,7 +23,7 @@
 		A7212C5D275CB4C4008C2DBF /* FFMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMIViewController.swift; sourceTree = "<group>"; };
 		A74DDA262754D2780023A797 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		A74DDA2A2754E2250023A797 /* BMI.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMI.mp4; sourceTree = "<group>"; };
-		A7C2F4AD274A1ACD00853593 /* BMIcal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIcal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C2F4AD274A1ACD00853593 /* MyBodyCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBodyCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C2F4B0274A1ACD00853593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7C2F4B2274A1ACD00853593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7C2F4B4274A1ACD00853593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		A7C2F4A4274A1ACD00853593 = {
 			isa = PBXGroup;
 			children = (
-				A7C2F4AF274A1ACD00853593 /* BMIcal */,
+				A7C2F4AF274A1ACD00853593 /* MyBodyCalculator */,
 				A7C2F4AE274A1ACD00853593 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		A7C2F4AE274A1ACD00853593 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7C2F4AD274A1ACD00853593 /* BMIcal.app */,
+				A7C2F4AD274A1ACD00853593 /* MyBodyCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7C2F4AF274A1ACD00853593 /* BMIcal */ = {
+		A7C2F4AF274A1ACD00853593 /* MyBodyCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				A7C2F4B0274A1ACD00853593 /* AppDelegate.swift */,
@@ -76,15 +76,15 @@
 				A7C2F4BB274A1ACE00853593 /* LaunchScreen.storyboard */,
 				A7C2F4BE274A1ACE00853593 /* Info.plist */,
 			);
-			path = BMIcal;
+			path = MyBodyCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7C2F4AC274A1ACD00853593 /* BMIcal */ = {
+		A7C2F4AC274A1ACD00853593 /* MyBodyCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7C2F4C1274A1ACE00853593 /* Build configuration list for PBXNativeTarget "BMIcal" */;
+			buildConfigurationList = A7C2F4C1274A1ACE00853593 /* Build configuration list for PBXNativeTarget "MyBodyCalculator" */;
 			buildPhases = (
 				A7C2F4A9274A1ACD00853593 /* Sources */,
 				A7C2F4AA274A1ACD00853593 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = BMIcal;
+			name = MyBodyCalculator;
 			productName = BMIcal;
-			productReference = A7C2F4AD274A1ACD00853593 /* BMIcal.app */;
+			productReference = A7C2F4AD274A1ACD00853593 /* MyBodyCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7C2F4A8274A1ACD00853593 /* Build configuration list for PBXProject "BMIcal" */;
+			buildConfigurationList = A7C2F4A8274A1ACD00853593 /* Build configuration list for PBXProject "MyBodyCalculator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7C2F4AC274A1ACD00853593 /* BMIcal */,
+				A7C2F4AC274A1ACD00853593 /* MyBodyCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMIcal/Info.plist;
+				INFOPLIST_FILE = MyBodyCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMIcal/Info.plist;
+				INFOPLIST_FILE = MyBodyCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -355,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7C2F4A8274A1ACD00853593 /* Build configuration list for PBXProject "BMIcal" */ = {
+		A7C2F4A8274A1ACD00853593 /* Build configuration list for PBXProject "MyBodyCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7C2F4BF274A1ACE00853593 /* Debug */,
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7C2F4C1274A1ACE00853593 /* Build configuration list for PBXNativeTarget "BMIcal" */ = {
+		A7C2F4C1274A1ACE00853593 /* Build configuration list for PBXNativeTarget "MyBodyCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7C2F4C2274A1ACE00853593 /* Debug */,
