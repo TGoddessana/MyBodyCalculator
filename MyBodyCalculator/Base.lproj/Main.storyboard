@@ -11,7 +11,7 @@
         <!--BMI 계산기-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="BMI 계산기" id="BYZ-38-t0r" customClass="ViewController" customModule="BMIcal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="BMI 계산기" id="BYZ-38-t0r" customClass="ViewController" customModule="MyBodyCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
         <!--FFMI 계산기-->
         <scene sceneID="2ri-Kn-tOG">
             <objects>
-                <viewController id="6Ia-SY-QME" customClass="FFMIViewController" customModule="BMIcal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Ia-SY-QME" customClass="FFMIViewController" customModule="MyBodyCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x7S-SX-eCE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,7 +201,7 @@
         <!--BMI 소개영상-->
         <scene sceneID="tCG-dK-3jD">
             <objects>
-                <viewController id="wAf-Q1-cFO" customClass="VideoViewController" customModule="BMIcal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wAf-Q1-cFO" customClass="VideoViewController" customModule="MyBodyCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dto-oQ-wJm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,7 +230,7 @@
         <!--FFMI와 BMI 소개-->
         <scene sceneID="hKi-CA-qc6">
             <objects>
-                <viewController id="jZg-Vv-915" customClass="WebViewController" customModule="BMIcal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jZg-Vv-915" customClass="WebViewController" customModule="MyBodyCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sQM-4K-Tqi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
