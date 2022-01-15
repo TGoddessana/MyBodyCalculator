@@ -24,19 +24,19 @@ class ViewController: UIViewController {
         var color = UIColor.white
         if bmi >= 40 {
             color = UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
-            body = "3단계 비만"
+            body = "3단계 비만입니다."
         } else if bmi >= 30 && bmi < 40 {
             color = UIColor(displayP3Red: 0.7, green: 0.0, blue: 0.0, alpha: 1.0)
-            body = "2단계 비만"
+            body = "2단계 비만입니다."
         } else if bmi >= 25 && bmi < 30 {
             color = UIColor(displayP3Red: 0.4, green: 0.0, blue: 0.0, alpha: 1.0)
-            body = "1단계 비만"
+            body = "1단계 비만입니다."
         } else if bmi >= 18.5 && bmi < 25 {
             color = UIColor(displayP3Red: 0.0, green: 0.0, blue: 1.0, alpha: 1.0)
-            body = "정상"
+            body = "정상입니다."
         } else {
             color = UIColor(displayP3Red: 0.0, green: 1.0, blue: 0.0, alpha: 1.0)
-            body = "저체중"
+            body = "저체중입니다."
         }
         lblResult.text = ("BMI:\(shortenedBmi), 판정:\(body)")
         lblResult.backgroundColor = color // 배경색을 color이라는 변수로 지정!
